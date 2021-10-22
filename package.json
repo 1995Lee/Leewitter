@@ -1,5 +1,5 @@
 {
-  "homepage": "https://1995lee.github.io/nwitter",
+  "homepage": "https://1995Lee.github.io/nwitter",
   "name": "nwitter",
   "version": "0.1.0",
   "private": true,
@@ -20,8 +20,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run bulid",
-    "deploy": "gh-pages -d bulid"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
